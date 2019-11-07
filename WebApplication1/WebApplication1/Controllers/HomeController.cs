@@ -10,6 +10,8 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        int iVal = 0;
+        string sVal = "xxx";
         public IActionResult Index()
         {
             return View();
