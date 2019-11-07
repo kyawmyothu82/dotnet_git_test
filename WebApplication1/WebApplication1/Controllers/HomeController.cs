@@ -12,6 +12,9 @@ namespace WebApplication1.Controllers
     {
         int iVal = 0;
         string sVal = "xxx";
+
+        int iVal_SourceT = 100;
+        string sVal_SourceT = "SourceTree";
         public IActionResult Index()
         {
             return View();
